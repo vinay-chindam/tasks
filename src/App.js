@@ -8,6 +8,7 @@ import ApiData from './Components/ApiData';
 import ParentComponent from './Components/ParentComponent';
 import UseMemoComponent from './Components/UseMemoComponent';
 import UseCallbackComponent from './Components/UseCallbackComponent';
+import SearchComponent from './Components/SearchComponent';
 
 function App() {
   const [openModal,setOpenModal]=useState(false)
@@ -25,6 +26,7 @@ function App() {
 
       <UseMemoComponent/>
       <UseCallbackComponent/>
+      <SearchComponent/>
 
     
      
