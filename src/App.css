@@ -44,3 +44,27 @@
   align-items: center;
   margin-top: 50px;
 }
+
+.dropdown {
+  position: relative;
+  width: 200px;
+}
+
+.menu {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: white;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background: #f2f2f2;
+}

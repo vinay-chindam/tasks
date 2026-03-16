@@ -10,6 +10,7 @@ import UseMemoComponent from './Components/UseMemoComponent';
 import UseCallbackComponent from './Components/UseCallbackComponent';
 import SearchComponent from './Components/SearchComponent';
 import ParentComponent2 from './Components/ParentComponent2';
+import Dropdown from './Components/Dropdown';
 
 function App() {
   const [openModal,setOpenModal]=useState(false)
@@ -29,6 +30,7 @@ function App() {
       <UseCallbackComponent/>
       <SearchComponent/>
       <ParentComponent2/>
+      <Dropdown/>
 
     
      
