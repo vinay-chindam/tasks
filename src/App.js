@@ -11,6 +11,7 @@ import UseCallbackComponent from './Components/UseCallbackComponent';
 import SearchComponent from './Components/SearchComponent';
 import ParentComponent2 from './Components/ParentComponent2';
 import Dropdown from './Components/Dropdown';
+import NestedDropdown from './Components/NestedDropdown';
 
 function App() {
   const [openModal,setOpenModal]=useState(false)
@@ -31,6 +32,7 @@ function App() {
       <SearchComponent/>
       <ParentComponent2/>
       <Dropdown/>
+      <NestedDropdown/>
 
     
      
