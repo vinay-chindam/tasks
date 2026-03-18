@@ -12,6 +12,7 @@ import SearchComponent from './Components/SearchComponent';
 import ParentComponent2 from './Components/ParentComponent2';
 import Dropdown from './Components/Dropdown';
 import NestedDropdown from './Components/NestedDropdown';
+import Pagination from './Components/Pagination';
 
 function App() {
   const [openModal,setOpenModal]=useState(false)
@@ -33,6 +34,7 @@ function App() {
       <ParentComponent2/>
       <Dropdown/>
       <NestedDropdown/>
+      <Pagination/>
 
     
      
