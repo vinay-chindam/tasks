@@ -13,6 +13,7 @@ import ParentComponent2 from './Components/ParentComponent2';
 import Dropdown from './Components/Dropdown';
 import NestedDropdown from './Components/NestedDropdown';
 import Pagination from './Components/Pagination';
+import GunTask from './GunTask';
 
 function App() {
   const [openModal,setOpenModal]=useState(false)
@@ -28,6 +29,8 @@ function App() {
         openModal && <LoginModal setOpenModal={setOpenModal}/>
       }
 
+      <GunTask/>
+
       <UseMemoComponent/>
       <UseCallbackComponent/>
       <SearchComponent/>
@@ -35,6 +38,9 @@ function App() {
       <Dropdown/>
       <NestedDropdown/>
       <Pagination/>
+
+      
+
 
     
      
