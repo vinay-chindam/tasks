@@ -14,6 +14,7 @@ import Dropdown from './Components/Dropdown';
 import NestedDropdown from './Components/NestedDropdown';
 import Pagination from './Components/Pagination';
 import GunTask from './GunTask';
+import ToDo from './Components/ToDo';
 
 function App() {
   const [openModal,setOpenModal]=useState(false)
@@ -31,13 +32,15 @@ function App() {
 
       <GunTask/>
 
+      <ToDo/>
+      
       <UseMemoComponent/>
       <UseCallbackComponent/>
       <SearchComponent/>
       <ParentComponent2/>
       <Dropdown/>
       <NestedDropdown/>
-      <Pagination/>
+      <Pagination/> 
 
       
 
